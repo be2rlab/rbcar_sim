@@ -240,7 +240,7 @@ Visualization Manager:
       Value: true
     - Class: rviz/Image
       Enabled: true
-      Image Topic: /robot/robot_viper/left/image_raw
+      Image Topic: /robot/robot_front_ptz_camera/image_raw
       Max Value: 1
       Median window: 5
       Min Value: 0
