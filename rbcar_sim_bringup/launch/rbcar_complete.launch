@@ -7,7 +7,6 @@
   <arg name="x_init_pose" default="$(optenv ROBOT_SIM_X_INIT_POSE -50)"/>
   <arg name="y_init_pose" default="$(optenv ROBOT_SIM_Y_INIT_POSE 50)"/>
   <arg name="z_init_pose" default="$(optenv ROBOT_SIM_Z_INIT_POSE 0)"/>
-  <rosparam param="gui" subst_value="true">$(arg gui)</rosparam>
   <!-- GPS default position of Robotnik at Fuente del Jarro-->
   <!-- <arg name="gps_latitude" default="$(optenv ROBOT_SIM_GPS_LATITUDE 39.5080331)" />
   <arg name="gps_longitude" default="$(optenv ROBOT_SIM_GPS_LONGITUDE -0.4619816)" /> -->
